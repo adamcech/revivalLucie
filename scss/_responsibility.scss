@@ -1,0 +1,99 @@
+@media only screen and (max-width: 991px) {
+  .only-desktop {
+    display: none;
+  }
+
+  .col {
+    flex-basis: inherit;
+    flex-grow: inherit;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .pmt-30 {
+    margin-top: 30px;
+  }
+
+  .social-network-icons-phone {
+    display: block;
+    padding-top: 15px;
+  }
+
+  .social-network-icons-phone div {
+    display: inline-block;
+    margin-right: 16px;
+  }
+
+  .social-network-icons-phone a {
+    display: inline-block;
+    margin-right: 4px;
+  }
+
+  .social-network-icons-phone img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer-content .copywrite-text {
+    font-size: 16px;
+  }
+
+
+  .team-content-area {
+    padding: 10px 0;
+    text-align: left;
+    margin-bottom: 10px !important;
+  }
+
+  .team-content-area .member-thumb {
+    width: 20%;
+    display: inline-block;
+    margin: 0 10px 0 20px;
+  }
+
+  .team-content-area h5 {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .team-content-area span {
+    display: inline-block;
+  }
+
+  .about-us-area {
+    padding-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 1.3rem;
+    text-align: justify;
+  }
+
+  div.why-choose-us-content {
+    height: 75%;
+  }
+
+  section.our-team-area {
+    padding-top: 0;
+    padding-bottom: 15px;
+  }
+
+  .section-padding-40-50 {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  ol#song-list {
+    padding-left: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .only-phone {
+    display: none;
+  }
+}
+

@@ -1,0 +1,44 @@
+// Import Fonts & All CSS
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700');
+@import 'bootstrap.min.css';
+@import 'animate.css';
+@import 'default-assets/classy-nav.css';
+@import 'owl.carousel.min.css';
+@import 'magnific-popup.css';
+@import 'font-awesome.min.css';
+@import 'default-assets/themify-icons.css';
+@import 'style.css';
+
+// Utilities
+
+@import "utilities/fonts";
+@import "utilities/variables";
+@import "utilities/responsive";
+@import "utilities/color";
+
+// Mixins
+
+@import "mixins/flex";
+@import "mixins/miscellaneous";
+
+// Stylesheet
+
+@import "reboot";
+@import "spacing";
+@import "preloader";
+@import "heading";
+@import "backtotop";
+@import "buttons";
+@import "header";
+@import "hero";
+@import "footer";
+@import "follow";
+@import "about";
+@import "breadcrumb";
+@import "blog";
+@import "team";
+@import "gallery";
+@import "contact";
+@import "custom";
+@import "responsibility";

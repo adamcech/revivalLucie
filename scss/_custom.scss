@@ -1,0 +1,278 @@
+a {
+    color: #227e97;
+}
+
+a:hover {
+    color: #3bb5d7;
+}
+
+a.download-link {
+    padding: 5px 0 10px 0;
+    display: block;
+    font-size: 13px;
+}
+
+a.download-link i.fa {
+    padding-left: 2px;
+    background-color: #FFFFFF;
+}
+
+span.song-desc {
+    color: #7F7F7F;
+    font-size: 12px;
+}
+
+.line {
+    height: 3px;
+    width: 70px;
+    background-color: $primary;
+    margin-bottom: 30px;
+}
+
+a.small-logo {
+    img {
+        width: 100px;
+    }
+}
+
+div.o-kapele {
+    img {
+        border-radius: 2%;
+        -webkit-box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 500ms, opacity 500ms;
+}
+
+img#menu-logo {
+    transition: visibility 500ms, opacity 500ms;
+}
+
+div.welcome-text img {
+    max-width: 70%;
+    padding: 12% 0 0 0;
+}
+
+footer.footer-area {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+div.concerts-table {
+    display: table;
+
+    div.concerts-old {
+        opacity: 0.5;
+    }
+
+    div.concerts-row {
+        display: table-row;
+
+        div.concerts-column {
+            display: table-cell;
+            vertical-align: middle;
+            font-size: 18px;
+
+            span.concerts-lower-font {
+                font-size: 14px;
+            }
+        }
+
+        div.concerts-column-odd {
+            padding-left: 15px;
+        }
+    }
+}
+
+figure.concert-date {
+    display: inline-block;
+
+    margin: 10px auto;
+
+    width: 80px;
+    height: 70px;
+
+    background-color: #f3f3f3;
+    border-radius: 10px;
+
+    position: relative;
+
+    box-shadow: 1px 1px 5px #bfbfbf;
+
+    &:before {
+        content: '';
+        display: block;
+
+        width:80px;
+        height: 56px;
+
+        border-radius: 10px 10px 0 0;
+
+        background-image: -webkit-linear-gradient(white 0%, #f3f3f3 100%);
+        background-image: -moz-linear-gradient(white 0%, #f3f3f3 100%);
+        background-image: -o-linear-gradient(white 0%, #f3f3f3 100%);
+        background-image: linear-gradient(white 0%, #f3f3f3 100%);
+
+    }
+
+    header {
+        font-size: 14px;
+
+        width: 80px;
+        height: 28px;
+        padding-top: 2px;
+
+        position: absolute;
+        top: -1px;
+
+        background-color: $primary;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 3px solid #dfdfdf;
+
+        color: #fff;
+
+        text-align: center;
+    }
+
+    section {
+        font-size: 20px;
+
+        width: 80px;
+        height: 80px;
+
+        padding-top: 16px;
+
+        position: absolute;
+        top: 14px;
+
+        color: #4c566b;
+
+        text-align: center;
+
+        z-index: 10;
+
+        &:before {
+            content: '';
+            display: block;
+
+            position: absolute;
+            top: 30px;
+
+            width: 3px;
+            height: 10px;
+
+            background-image: -webkit-linear-gradient(#dfdfdf 0%, #e7e7e7 100%);
+            background-image: -moz-linear-gradient(#dfdfdf 0%, #e7e7e7 100%);
+            background-image: -o-linear-gradient(#dfdfdf 0%, #e7e7e7 100%);
+            background-image: linear-gradient(#dfdfdf 0%, #e7e7e7 100%);
+        }
+
+        &:after {
+            content: '';
+            display: block;
+
+            position: absolute;
+            top: 30px;
+            right: 0;
+
+            width: 3px;
+            height: 10px;
+
+            background-image: -webkit-linear-gradient(#dfdfdf 0%, #e7e7e7 100%);
+            background-image: -moz-linear-gradient(#dfdfdf 0%, #e7e7e7 100%);
+            background-image: -o-linear-gradient(#dfdfdf 0%, #e7e7e7 100%);
+            background-image: linear-gradient(#dfdfdf 0%, #e7e7e7 100%);
+        }
+
+    }
+}
+
+div.social-network-icons {
+    position: fixed;
+    right: 0;
+    top: 70%;
+    z-index: 1000000;
+
+    img {
+        width: 48px;
+        height: 48px;
+        display: block;
+    }
+}
+
+div.why-choose-us-content {
+    height: 83%;
+
+    ul {
+        margin-left: 30px;
+        color: #636363;
+        line-height: 1.9;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    ul li {
+        list-style-type: disc;
+    }
+}
+
+ol#song-list {
+
+    padding-left: 15px;
+
+    li {
+        list-style-type: decimal;
+        list-style-position: outside;
+    }
+}
+
+img.welcome-phone-logo {
+    position: absolute;
+    width: 50%;
+    display: block;
+    margin: 0 25%;
+}
+
+img.welcome-phone-image {
+
+}
+
+.breakpoint-on .classy-navbar .classy-menu {
+    background-color: #2F2F2F;
+}
+
+.classycloseIcon .cross-wrap span {
+    background-color: #FFFFFF;
+}
+
+.breakpoint-on .classynav > ul > li > a {
+    background-color: #6F6F6F !important;
+    color: #DFDFDF !important;
+    border-bottom: 1px solid #BFBFBF !important;
+}
+
+.footer-content {
+    height: 100%;
+}
+
+.footer-counter {
+    max-width: inherit;
+    padding: 10px 0;
+}
+
+.footer-counter {
+    max-width: 110px;
+}
+
+section#anchor-pro-poradatele p {
+    text-align: justify;
+}
+
+.grecaptcha-badge {
+    visibility: hidden; }
